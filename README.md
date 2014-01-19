@@ -28,4 +28,4 @@ Build Instructions for SlimKat Y300 (U8833)  & G510 (U8951)
         For Y300:
             brunch u8833
         For G510:
-            brunch u8833
+            brunch u8951
