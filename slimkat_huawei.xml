@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
 
+     <!-- Slim Vendor (Modified Build String) -->
+     <remove-project name="SlimRoms/vendor_slim" />
+     <project path="vendor/slim" name="chil360/vendor_slim" remote="github" revision="kk4.4" />
+
+     <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="Dazzozo/proprietary_vendor_huawei" remote="github" revision="kitkat"/>
      <project path="kernel/huawei/huawei-kernel-3.4" name="Dazzozo/huawei-kernel-3.4" remote="github" revision="kitkat"/>
      <project path="device/huawei/msm7x27a-common" name="chil360/android_device_huawei_msm7x27a-common" remote="github" revision="slimkat"/>
@@ -8,23 +13,27 @@
      <project path="device/huawei/u8951" name="chil360/android_device_huawei_u8951" remote="github" revision="slimkat"/>
      <project path="device/huawei/u8825" name="chil360/android_device_huawei_u8825" remote="github" revision="slimkat"/>
 
+     <!-- WIFI -->
      <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
      <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
-     <project path="hardware/qcom/media-legacy" name="Dazzozo/android_hardware_qcom_media-legacy" remote="github" revision="jellybean-mr2" />
-     <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
 
-     <remove-project name="SlimRoms/frameworks_av" />
-     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" remote="github" revision="cm-11.0" />
-
-     <remove-project name="SlimRoms/frameworks_native" />
-     <project path="frameworks/native" name="Dazzozo/android_frameworks_native" remote="github" revision="cm-11.0" />
-
+     <!-- GPS -->
      <remove-project name="SlimRoms/hardware_qcom_gps" />
      <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-11.0" />
 
+     <!-- QCOM Hardware -->
+     <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
+     <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
+
+     <!-- Frameworks -->
+     <remove-project name="SlimRoms/frameworks_av" />
+     <project path="frameworks/av" name="chil360/frameworks_av" remote="github" revision="kk4.4-caf" />
+     <remove-project name="SlimRoms/frameworks_native" />
+     <project path="frameworks/native" name="chil360/frameworks_native" remote="github" revision="kk4.4-caf" />
+
+     <!-- Webkit -->
      <project path="external/webkit" name="Dazzozo/android_external_webkit" remote="github" revision="kitkat"/>
      
-    
 </manifest>
 
  
