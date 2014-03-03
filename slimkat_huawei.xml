@@ -7,7 +7,7 @@
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="chil360/proprietary_vendor_huawei" remote="github" revision="kitkat"/>
-     <project path="kernel/huawei/huawei-kernel-3.4" name="chil360/huawei-kernel-3.4" remote="github" revision="kitkat"/>
+     <project path="kernel/huawei/huawei-kernel-3.4" name="chil360/chil360-kernel" remote="github" revision="kitkat"/>
      <project path="device/huawei/msm7x27a-common" name="chil360/android_device_huawei_msm7x27a-common" remote="github" revision="slimkat"/>
      <project path="device/huawei/u8833" name="chil360/android_device_huawei_u8833" remote="github" revision="slimkat"/>
      <project path="device/huawei/u8951" name="chil360/android_device_huawei_u8951" remote="github" revision="slimkat"/>
