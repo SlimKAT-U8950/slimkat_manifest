@@ -23,7 +23,7 @@
 
      <!-- QCOM Hardware -->
      <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
-     <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
+     <project path="hardware/qcom/media-legacy" name="Dazzozo/android_hardware_qcom_media-legacy" remote="github" revision="kitkat" />
 
      <!-- Frameworks -->
      <remove-project name="SlimRoms/frameworks_av" />
