@@ -3,36 +3,35 @@
 
      <!-- Slim Vendor (Modified Build String) -->
      <remove-project name="SlimRoms/vendor_slim" />
-     <project path="vendor/slim" name="chil360/vendor_slim" remote="github" revision="kk4.4" />
+     <project path="vendor/slim" name="SlimKAT-U8950/vendor_slim" remote="github" revision="kk4.4" />
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
-     <project path="vendor/huawei" name="chil360/proprietary_vendor_huawei" remote="github" revision="kitkat"/>
-     <project path="kernel/huawei/huawei-kernel-3.4" name="chil360/chil360-kernel" remote="github" revision="kitkat"/>
-     <project path="device/huawei/msm7x27a-common" name="chil360/android_device_huawei_msm7x27a-common" remote="github" revision="slimkat"/>
-     <project path="device/huawei/u8833" name="chil360/android_device_huawei_u8833" remote="github" revision="slimkat"/>
-     <project path="device/huawei/u8951" name="chil360/android_device_huawei_u8951" remote="github" revision="slimkat"/>
-     <project path="device/huawei/u8825" name="chil360/android_device_huawei_u8825" remote="github" revision="slimkat"/>
+     <project path="vendor/huawei" name="SlimKAT-U8950/proprietary_vendor_huawei" remote="github" revision="kitkat"/>
+     <project path="kernel/huawei/huawei-kernel-3.4" name="SlimKAT-U8950/chil360-kernel" remote="github" revision="kitkat"/>
+     <project path="device/huawei/msm7x27a-common" name="SlimKAT-U8950/android_device_huawei_msm7x27a-common" remote="github" revision="slimkat"/>
+     <project path="device/huawei/u8833" name="SlimKAT-U8950/android_device_huawei_u8833" remote="github" revision="slimkat"/>
+     <project path="device/huawei/u8950" name="SlimKAT-U8950/android_device_huawei_u8950" remote="github" revision="slimkat"/>
 
      <!-- WIFI -->
-     <project path="hardware/atheros/wifi/ath6kl-huawei" name="Dazzozo/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
-     <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
+     <project path="hardware/atheros/wifi/ath6kl-huawei" name="SlimKAT-U8950/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
+     <project path="hardware/atheros/wlan" name="SlimKAT-U8950/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
 
      <!-- GPS -->
      <remove-project name="SlimRoms/hardware_qcom_gps" />
-     <project path="hardware/qcom/gps" name="chil360/android_hardware_qcom_gps" remote="github" revision="kitkat" />
+     <project path="hardware/qcom/gps" name="SlimKAT-U8950/android_hardware_qcom_gps" remote="github" revision="kitkat" />
 
      <!-- QCOM Hardware -->
-     <project name="Dazzozo/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
-     <project path="hardware/qcom/media-legacy" name="Dazzozo/android_hardware_qcom_media-legacy" remote="github" revision="kitkat" />
+     <project name="SlimKAT-U8950/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="jellybean-mr2" />
+     <project path="hardware/qcom/media-legacy" name="SlimKAT-U8950/android_hardware_qcom_media-legacy" remote="github" revision="kitkat" />
 
      <!-- Frameworks -->
      <remove-project name="SlimRoms/frameworks_av" />
-     <project path="frameworks/av" name="chil360/frameworks_av" remote="github" revision="kk4.4-caf" />
+     <project path="frameworks/av" name="SlimKAT-U8950/frameworks_av" remote="github" revision="kk4.4-caf" />
      <remove-project name="SlimRoms/frameworks_native" />
-     <project path="frameworks/native" name="chil360/frameworks_native" remote="github" revision="kk4.4-caf" />
+     <project path="frameworks/native" name="SlimKAT-U8950/frameworks_native" remote="github" revision="kk4.4-caf" />
 
      <!-- Webkit -->
-     <project path="external/webkit" name="Dazzozo/android_external_webkit" remote="github" revision="kitkat"/>
+     <project path="external/webkit" name="SlimKAT-U8950/android_external_webkit" remote="github" revision="kitkat"/>
      
 </manifest>
 
