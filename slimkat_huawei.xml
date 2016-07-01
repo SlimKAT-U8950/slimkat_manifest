@@ -10,7 +10,7 @@
      <project path="kernel/huawei/huawei-kernel-3.4" name="SlimKAT-U8950/chil360-kernel" remote="github" revision="kitkat"/>
      <project path="device/huawei/msm7x27a-common" name="SlimKAT-U8950/android_device_huawei_msm7x27a-common" remote="github" revision="slimkat"/>
      <project path="device/huawei/u8833" name="SlimKAT-U8950/android_device_huawei_u8833" remote="github" revision="slimkat"/>
-     <project path="device/huawei/u8950" name="SlimKAT-U8950/android_device_huawei_u8950" remote="github" revision="slimkat"/>
+     <project path="device/huawei/u8950" name="SlimKAT-U8950/android_device_huawei_u8950" remote="github" revision="master"/>
 
      <!-- WIFI -->
      <project path="hardware/atheros/wifi/ath6kl-huawei" name="SlimKAT-U8950/android_hardware_atheros_wifi_ath6kl-huawei" remote="github" revision="master" />
