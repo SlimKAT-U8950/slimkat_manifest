@@ -21,8 +21,8 @@
      <project path="hardware/qcom/gps" name="SlimKAT-U8950/android_hardware_qcom_gps" remote="github" revision="kitkat" />
 
      <!-- QCOM Hardware -->
-     <project name="SlimKAT-U8950/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-11.0" />
-     <project path="hardware/qcom/media-legacy" name="SlimKAT-U8950/android_hardware_qcom_media-legacy" remote="github" revision="kitkat" />
+     <project name="SlimKAT-U8950/android_hardware_qcom_display-legacy-1" path="hardware/qcom/display-legacy" remote="github" revision="cm-11.0" />
+     <project path="hardware/qcom/media-legacy" name="SlimKAT-U8950/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0"/>
 
      <!-- Frameworks -->
      <remove-project name="SlimRoms/frameworks_av" />
